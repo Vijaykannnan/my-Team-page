@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  padding: 40px;
+}
+.row .title {
+  font-weight: 700;
+  font-size: 45px;
+  padding: 0 20px;
+}
+.row .content-title {
+  font-weight: 600;
+  padding: 0 20px;
+  font-size: 35px;
+}
+.row .content {
+  padding: 0 20px;
+  font-size: 30px;
+}
+.first-img,
+.second-img,
+.third-img,
+.fourth-img,
+.fiveth-img,
+.sixth-img {
+  width: 65%;
+  position: relative;
+  padding: 20px;
+}
+main img {
+  width: 60%;
+  height: 400px;
+  padding: 3px;
+  margin: 5px;
+}
+.job {
+  position: absolute;
+  left: 60%;
+  writing-mode: vertical-lr;
+  margin-top: 10px;
+}
+.second-img img,
+.fiveth-img img {
+  margin-top: 30%;
+}
+.jobtop {
+  position: absolute;
+  left: 60%;
+  writing-mode: vertical-lr;
+  margin-top: 30%;
+}
+.name {
+  font-weight: 800;
+}
+footer p {
+  color: gray;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 425px) {
+  .fourth-img img {
+    margin-top: 30%;
+  }
+  .sixth-img img {
+    margin-top: 55%;
+  }
+}
